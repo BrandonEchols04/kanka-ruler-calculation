@@ -19,18 +19,24 @@
           <div class="parent">
             <div class="input-group">
               <input type="number" type="number" id="mapWidthPx" name="mapWidthPx">
-              <small>Width of Map (px)</small>
+              <small>Width of Map (pixels)</small>
             </div>
 
             <div class="input-group">
               <input type="number" type="number" id="desiredMapWidth" name="desiredMapWidth">
-              <small>Desired Map Width</small>
+              <small>Width of Map in Desired Units of Measure</small>
             </div>
 
             <div class="input-group">
               <input type="number" type="number" id="maxZoom" name="maxZoom" min="1" max="10" step="1">
               <small>Maximal Zoom</small>
             </div>
+            <p id="notes">
+
+              Note that the unit of measure doesn't matter; just input the value. Also note that you don't need to input the full width. For example, if you know that you want 100px to equal 5 of your unit, use those values instead.
+
+            <p>
+
           </div>
 
         </div>
@@ -40,15 +46,16 @@
 
           <h1>Distance Measurement:</h1>
           <h2 id="output">0.0000<h2>
-          <button onclick="copyResult()">Copy Result</button>
-
+          <div id="button">
+            <button onclick="copyResult()">Copy Result</button>
+          </div>
         </div>
 
         <div id="ContainerFooter">
 
-          <p id="footer">
+          <p id="footer" class="footer">
 
-            Version 1.0.0 | Calculator by Brandon Echols and The Quacken | Submit Bugs & Ideas <a href="https://github.com/BrandonEchols04/kanka-ruler-calculation/issues" target="_blank">HERE</a>
+            Version 1.1.0 | Calculator by Brandon Echols and The Quacken | Submit Bugs & Ideas <a href="https://github.com/BrandonEchols04/kanka-ruler-calculation/issues" target="_blank">HERE</a>
 
           <p>
 
