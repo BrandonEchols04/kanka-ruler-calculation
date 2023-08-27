@@ -230,3 +230,33 @@ p{
   font-family: 'PS-Regular';
   font-size: 0.88em;
 }
+
+#containerFooter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EBEBEB;
+  margin: auto;
+  font-family: 'PS-Regular';
+}
+
+#footer{
+  font-family: sv;
+  color: #EBEBEB;
+  text-align: center;
+  margin: auto;
+  font-family: 'PS-Regular';
+}
+
+a {
+  color: #FFFFFF;
+  font-family: 'PS-Regular';
+}
+
+a:hover {
+  color: #EBEBEB;
+}
+
+a:visited {
+  color: #D1D1D1;
+}
